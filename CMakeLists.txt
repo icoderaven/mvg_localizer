@@ -4,7 +4,8 @@ project(mvg_localizer)
 #Include the OpenMVG library
 set(OpenMVG_DIR "/home/icoderaven/packages/openMVG/install/share/openMVG/cmake")
 FIND_PACKAGE(OpenMVG REQUIRED)
-
+set(OpenCV_DIR "/home/icoderaven/packages/opencv-3.0.0/build")
+FIND_PACKAGE(OpenCV 3.0 REQUIRED)
 
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
